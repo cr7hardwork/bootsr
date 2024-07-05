@@ -1,0 +1,84 @@
+body {
+  background-image: url(https://www.soccerbible.com/media/138945/lucent-sb-1.jpg);
+  background-repeat: no-repeat;
+}
+
+table {
+  width: 40%;
+  margin: 20px 0px;
+  background-color: yellow;
+  border-radius: 20px;
+}
+
+th,td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+thead tr th {
+  font-size: 15px;
+}
+
+
+tbody td {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  color: white;
+  background-color: grey;
+  border-radius: 80px;
+  margin: 3px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  background-color: red;
+  transform: scale(1.2);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  color: #f4f4f4;
+  padding: 10px;
+
+}
+
+.header-container :hover{
+  transform: scale(1.2);
+
+}
+
+.header-container a {
+  display: flex;
+  margin-right: 20px;
+  color: #f4f4f4;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+
+input {
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+
